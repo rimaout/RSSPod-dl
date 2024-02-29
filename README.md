@@ -7,8 +7,10 @@ Python-based CLI tool for downloading and managing podcast episodes from RSS fee
 pip install RSSPod-dl
 ```
 
-# Description
+## Description
 This program is a multi-threaded podcast downloader. It can download a single podcast or multiple podcasts from a list. The metadata of the original podcast episodes is maintained in the downloaded MP3 files.
+
+---
 
 ## Usage
 
@@ -46,7 +48,7 @@ if no file is provided, the program will look for a file named `podcast_list.txt
 
 All podcasts in the file will be downloaded
 
-#### Adding Podcasts to the List
+### Adding Podcasts to the List
 The file should contain the name of the podcast followed by a colon and then the URL of the podcast. Lines starting with # are treated as comments and those podcasts will not be downloaded. Here's an example of the file structure:
 
 ```txt
@@ -94,6 +96,8 @@ In this example, the "Lost Terminal" podcast will not be downloaded because its 
 
 >Credits to [Tris](https://github.com/0atman) for the best SCI-FI podcast out there [Lost Terminal](https://lostterminal.com/).
 
+---
+
 ### Dependencies
 This program uses the following Python packages:
 
@@ -114,6 +118,8 @@ pip install requests bs4 eyed3 alive_progress
 
 Note: `os`, `argparse`, `io`, `time`, `socket`, and re are part of the Python standard library, so you don't need to install them separately.
 
+---
+
 ### Build Yourself (Optional)
 If you want to build this project yourself, follow these steps
 
@@ -129,9 +135,12 @@ git clone https://github.com/yourusername/RSSPod_dl.git
 cd RSSPod_dl
 pip install .
 ```
+---
 
 ## License
 his program is released under the MIT License. See the `LICENSE` file for more details.
+
+---
 
 ## About
 
