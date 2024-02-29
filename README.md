@@ -55,7 +55,7 @@ Modem Prometheus:https://www.spreaker.com/show/5184621/episodes/feed
 
 In this example, the "Lost Terminal" podcast will not be downloaded because its line starts with #. Each non-comment line represents a separate podcast with its corresponding RSS feed URL. The program will download all episodes from each provided podcast URL.
 
-|Credits to [Tris](https://github.com/0atman) for the best SCI-FI podcast out there [Lost Terminal](https://lostterminal.com/).
+| Credits to [Tris](https://github.com/0atman) for the best SCI-FI podcast out there [Lost Terminal](https://lostterminal.com/).
 
 ### Dependencies
 This program uses the following Python packages:
