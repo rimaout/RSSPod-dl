@@ -46,7 +46,44 @@ if no file is provided, the program will look for a file named `podcast_list.txt
 
 All podcasts in the file will be downloaded
 
+#### Adding Podcasts to the List
 The file should contain the name of the podcast followed by a colon and then the URL of the podcast. Lines starting with # are treated as comments and those podcasts will not be downloaded. Here's an example of the file structure:
+
+```txt
+Podcast Name:Podcast RSS Feed URL
+```
+
+Here's an example:
+
+```txt
+Lost Terminal:https://www.spreaker.com/show/4488937/episodes/feed
+```
+
+In this example, "Lost Terminal" is the name of the podcast and "https://www.spreaker.com/show/4488937/episodes/feed" is the RSS feed URL of the podcast.
+
+If you want to add a comment or note to yourself in the file, start the line with a `#`. The program will ignore these lines when downloading podcasts. For example:
+
+
+```txt
+# This is my favorite podcast
+Modem Prometheus:https://www.spreaker.com/show/5184621/episodes/feed
+```
+Or you can use it to disable a podcast from being downloaded. For example:
+
+```txt
+# This is my favorite podcast
+Lost Terminal:https://www.spreaker.com/show/4488937/episodes/feed
+
+# Modem Prometheus:https://www.spreaker.com/show/5184621/episodes/feed
+```
+
+Once you have prepared your list, save the file. When running the `download_all` command, provide the path to this file:
+
+```shell
+rsspod download_all /path/to/podcast_list.txt
+```
+
+If no file is provided, the program will look for a file named `podcast_list.txt` in the current directory.
 
 ```txt
 #Lost Terminal:https://www.spreaker.com/show/4488937/episodes/feed
