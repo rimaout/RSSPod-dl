@@ -3,11 +3,13 @@
 Python-based CLI tool for downloading and managing podcast episodes from RSS feeds.
 
 ### Install Package
+
 ```shell
 pip install RSSPod-dl
 ```
 
 ## Description
+
 This program is a multi-threaded podcast downloader. It can download a single podcast or multiple podcasts from a list. The metadata of the original podcast episodes is maintained in the downloaded MP3 files.
 
 ---
