@@ -1,7 +1,7 @@
 from setuptools import find_packages, setup
 import os
 
-VERSION = '1.0.0'
+VERSION = '1.0.1'
 DESCRIPTION = 'Python CLI tool for downloading and managing podcast from RSS feeds.'
 
 # Read the contents of your README file

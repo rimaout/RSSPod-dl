@@ -148,8 +148,4 @@ This program is released under the MIT License. See the `LICENSE` file for more 
 
 This project was born out of a personal need. As a podcast listener, I wanted a simple way to download my favorite podcasts from various sources and sync them to my iPod. This tool allows me to do just that - it downloads multiple podcasts and organizes them in a single directory, making it easy to transfer and listen to them on my device.
 
-Feel free to fork this project or contribute to its development. Any contributions, whether it's improving the code or adding new features, are always welcome!
-
-
-
-
+This is one of my first projects and I'm still learning, so feel free to correct me or suggest improvements, raise issues or contribute to the project!
