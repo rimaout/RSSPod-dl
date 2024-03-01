@@ -140,7 +140,7 @@ pip install .
 ---
 
 ## License
-his program is released under the MIT License. See the `LICENSE` file for more details.
+This program is released under the MIT License. See the `LICENSE` file for more details.
 
 ---
 
