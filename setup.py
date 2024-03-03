@@ -1,7 +1,7 @@
 from setuptools import find_packages, setup
 import os
 
-VERSION = '1.0.1'
+VERSION = '1.0.2'
 DESCRIPTION = 'Python CLI tool for downloading and managing podcast from RSS feeds.'
 
 # Read the contents of your README file
@@ -13,7 +13,7 @@ setup(
     name="RSSPod-dl",
     version=VERSION,
     packages=find_packages(),
-    install_requires=['bs4', 'eyed3', 'alive_progress'],
+    install_requires=['bs4', 'eyed3', 'alive_progress', "lxml"],
     entry_points={
         'console_scripts': [
             'rsspod=RSSPod_dl.main:main',
